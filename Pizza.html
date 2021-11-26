@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  </script>
+  <script src = "js/scripts.js"></script>
+
+  <link rel="stylesheet" href="css/styles.css">
+  <meta charset="utf-8">
+  <title> Pizza Shop</title>
+</head>
+<body>
+    <div>
+      <img src="Images/pizza.jpg" alt="PicOfAPizza"><br>
+
+      <h1><em>Number One Pizza Shop</em></h1>
+    </div>
+<div>
+    <table>
+      <fieldset name="ID" id="ID">
+        <form>
+                <label for="name">Name :</label>
+                <input type="text" id="name" placeholder="Name">
+              </div><br><br>
+              <div >
+                <label for="chooseToppings"><strong><em>Choose your Toppings:</em></strong></label><br>
+                <input  type="checkbox" value="Cheese" name="toppingCheck">
+                <label  for="cheese">
+                  Cheese
+                </label>
+                <select id="cheese">
+                  <option selected></option>
+                  <option value= "1">1</option>
+                  <option value= "2">2</option>
+                  <option value = "3">3</option>
+                  <option value= "4">4</option>
+                  <option value= "5">5</option>
+                  <option value= "6">6</option>
+                  <option value= "7">7</option>
+                  <option value= "8">8</option>
+                  <option value= "9">9</option>
+                  <option value= "10">10</option>
+                </select>
+              </div>
+              <div >
+                <input type="checkbox" value="Pepperoni" name="toppingCheck" >
+                <label for="pepperoni">
+                  Pepperoni
+                </label>
+                <select id="Pepperoni" class="form-control">
+                    <option selected></option>
+                    <option value= "1">1</option>
+                    <option value= "2">2</option>
+                    <option value= "3">3</option>
+                    <option value= "4">4</option>
+                    <option value= "5">5</option>
+                    <option value= "6">6</option>
+                    <option value= "7">7</option>
+                    <option value= "8">8</option>
+                    <option value= "9">9</option>
+                    <option value= "10">10</option>
+                  </select>
+              </div>
+                <input  type="checkbox" value="Olives" name="toppingCheck" >
+                <label  for="Olives">
+                  Olives
+                </label>
+                <select id="Olives">
+                    <option selected></option>
+                    <option value= "1">1</option>
+                    <option value= "2">2</option>
+                    <option value ="3">3</option>
+                    <option value= "4">4</option>
+                    <option value= "5">5</option>
+                    <option value= "6">6</option>
+                    <option value= "7">7</option>
+                    <option value= "8">8</option>
+                    <option value= "9">9</option>
+                    <option value= "10">10</option>
+                  </select>
+              </div>
+              <div >
+                <input type="checkbox" value="Chicken" name="toppingCheck" >
+                <label for="Chicken">
+                  Chicken
+                </label>
+                <select id="Chicken">
+                    <option selected></option>
+                    <option value= "1">1</option>
+                    <option value= "2">2</option>
+                    <option value = "3">3</option>
+                    <option value= "4">4</option>
+                    <option value= "5">5</option>
+                    <option value= "6">6</option>
+                    <option value= "7">7</option>
+                    <option value= "8">8</option>
+                    <option value= "9">9</option>
+                    <option value= "10">10</option>
+                  </select>
+              </div>
+              <div ><br><br>
+                <label for="chooseToppings"><strong><em>Choose the size of your Pizza:</em></strong></label><br>
+                <input  type="radio" name="sizePizza" id="option1" value="Small">
+                <label for="sizeSmall">
+                  Small ($10)
+                </label>
+              </div>
+              <div >
+                <input  type="radio" name="sizePizza" id="option2" value="Medium">
+                <label  for="sizeMedium">
+                  Medium ($12)
+                </label>
+              </div>
+              <div >
+                <input  type="radio" name="sizePizza" id="option3" value="Large">
+                <label for="sizeLarge">
+                  Large ($18)
+                </label>
+              </div><br><button type="submit" id="button"  onclick='CheckOut();'>Checkout</button>
+            </form>
+          </div>
+          </div>
+        </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </body>
+    <script>
+       function CheckOut()
+    {
+        var N= document.getElementById("name").value;
+        var T1 = document.getElementById("cheese").vlaue;
+        var T2 = document.getElementById("Pepperoni").vlaue;
+        var T3 = document.getElementById("Olives").vlaue;
+        var T4 = document.getElementById("Chicken").vlaue;
+        }
+    </script>
+    </html>
